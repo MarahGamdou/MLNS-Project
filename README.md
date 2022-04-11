@@ -18,6 +18,8 @@ datasets/
         ids.pkl
 ``` 
 We used https://github.com/JDAI-CV/fast-reid for the feature extraction part. 
+
+For visualization, you should also download the Market-1501 dataset. 
 # Requirements 
 
 * dgl
