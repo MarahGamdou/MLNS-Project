@@ -6,9 +6,23 @@ In this project, we explore several approaches to optimise target re-identificat
 
 We will be testing our work on Market-1501 and VeriWild
 
+To run reranking evaluation:
+1. Place dataset files (issued from the feature extraction) under 'dataset/' folder:
+The dataset structure should be like:
+
+```bash
+datasets/
+    Market/
+        camids.pkl
+        feat.pkl
+        ids.pkl
+``` 
+We used https://github.com/JDAI-CV/fast-reid for the feature extraction part. 
 # Requirements 
 
 * dgl
+* Pytorch 
+* scikit-learn
 
 # GNN based reranking
 The code has been included in `/extension`. To compile it:
