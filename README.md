@@ -46,3 +46,8 @@ datasets/
 ``` 
 2. python run.py
 Ps: Reranking runs only on GPU
+
+# Members 
+Chady Raach 
+Mehdi Zemni 
+Marah Gamdou
