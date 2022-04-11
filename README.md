@@ -17,7 +17,7 @@ datasets/
         feat.pkl
         ids.pkl
 ``` 
-
+We used https://github.com/JDAI-CV/fast-reid for the feature extraction part. 
 # Requirements 
 
 * dgl
