@@ -21,6 +21,8 @@ We used https://github.com/JDAI-CV/fast-reid for the feature extraction part.
 # Requirements 
 
 * dgl
+* Pytorch 
+* scikit-learn
 
 # GNN based reranking
 The code has been included in `/extension`. To compile it:
